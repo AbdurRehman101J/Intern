@@ -1,3 +1,4 @@
+console.time();
 const num=[1,2,3,4,5,6,7];
 const k=3;
 function arrayRotation(arr){
@@ -6,9 +7,4 @@ function arrayRotation(arr){
     console.log(arr);
 }
 console.log(arrayRotation(num));
-
-
-
-
-
-    
+console.timeEnd();
