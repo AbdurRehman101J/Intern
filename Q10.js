@@ -1,4 +1,4 @@
-
+console.time();
 let arr=[[1,2,3],[4,5,6],[9,8,9]];
 let n = arr.length; 
 let Left_Diagnol = 0;
@@ -16,3 +16,4 @@ Right_Diagnol += arr[i][j];
 }
 }
 console.log (Math.abs(Left_Diagnol - Right_Diagnol));
+console.timeEnd();

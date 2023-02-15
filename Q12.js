@@ -1,3 +1,4 @@
+console.time();
 var arr1 = [["eggs", 2.89], ["milk", 3.29],
 ["cheese", 5.79]];
 var arr2 = [["eggs", 2.89], ["eggs", 2.99],
@@ -13,4 +14,4 @@ count++;
 return count;
 }
 console.log( "Count = " + countItems(arr1,arr2));
-   
+console.timeEnd();   
